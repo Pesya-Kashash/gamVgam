@@ -1,0 +1,52 @@
+﻿body {
+}
+
+#board {
+    border-color: red;
+    width: 65vw;
+    height: 65vh;
+    display: inline-block;
+    text-align: center;
+    margin: auto;
+    vertical-align: middle;
+    align-self: center;
+    border-color: transparent;
+}
+
+.iconHome {
+    background-image: url('../icons/home-sketch (1).jpg');
+    background-size: cover;
+}
+
+.ddd {
+    width: 4vw;
+    height: 7vh;
+    align-self: center;
+    margin: auto;
+    border: 0;
+    margin-bottom: 7vh;
+}
+
+.stripedDiv {
+    width: 2.666vw;
+    height: 7vh;
+    font-size: 6vh;
+    position: absolute;
+    margin-left: 1vw;
+    margin-bottom: 1.2vh;
+}
+
+.emptyDiv {
+    position: absolute;
+    margin-right: 1vw;
+    margin-top: 1.2vh;
+    width: 2.666vw;
+    height: 7vh;
+    /*display: block;*/
+    color: rebeccapurple;
+    background-color: white;
+    font-family: Chiller;
+    font-size: 6vh;
+    box-shadow: 0.5vw -0.6vh rebeccapurple;
+}
+

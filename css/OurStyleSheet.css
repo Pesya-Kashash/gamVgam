@@ -1,0 +1,194 @@
+﻿body {
+    /*position:absolute;
+    width:10px;
+    height:10px;*/
+    background-image: url('../picture/עמוד משחק.png');
+    background-repeat:no-repeat;
+    background-size:90%;
+  overflow-x:hidden;
+}
+div.card {
+position:absolute;
+}
+.audio
+{
+    width:0px;
+    height:0px;
+}
+
+.condition_img {
+    width: 50%;
+    height: 50%;
+    z-index: 1;
+    text-align: center;
+    margin-top:30%;
+}
+.condition_back {
+    width: 100px;
+    height: 100px;
+    /*background-color: antiquewhite;*/
+    z-index: 0;
+    /*border-radius: 70%;*/
+    text-align: center;
+    border: none;
+}
+/*הdiv של התנאים*/
+/*#conditions {
+    position: absolute;
+    margin-top: 5%;
+    width: 100%;
+    height: auto;
+    margin-left: 28%;
+        border: none;
+    /*כדי שהdiv של התנאים יהיה בלי מסגרת:*/
+
+    /*text-align:center;*/
+
+
+
+#condition1 {
+    border: none;
+    position: absolute;
+    width: 15%;
+    height: auto;
+    margin-top: 5%;
+    margin-left: 28%;
+    top: -4%;
+    left: 10%;
+}
+#condition2 {
+    border: none;
+    position: absolute;
+    width: 15%;
+    height: auto;
+    margin-top: 5%;
+    margin-left: 28%;
+    top: -4%;
+    left: 28%;
+}
+
+#board_cardsA {
+    position: absolute;
+    margin-left: 6%;
+    border: none;
+    margin-top: 2%;
+    top: 40%;
+}
+#board_cardsB {
+    position: absolute;
+    margin-left: 6%;
+    border: none;
+    margin-top: 2%;
+    top: 60%;
+}
+#board{
+    border:none;
+}
+#point {
+    position: absolute;
+    width: 100%;
+    height: auto;
+    font-size: 500%;
+    top: 5%;
+    left: 24%;
+}
+#icon {
+    border: none;
+
+}
+#orange {
+    position: absolute;
+    border: none;
+    z-index: 0;
+    width: 20%;
+    height: 20%;
+    opacity: 0.5;
+    left: 77%;
+    top: 4%;
+}
+#icon_music {
+    border: none;
+    z-index:1;
+    position: absolute;
+    width: 4%;
+    height: auto;
+    margin-top: 5%;
+    margin-left: 28%;
+    top: -4%;
+    left: 60%;
+}
+#icon_home {
+    z-index: 1;
+    border: none;
+    position: absolute;
+    width: 4%;
+    height: auto;
+    margin-top: 5%;
+    margin-left: 28%;
+    top: -4%;
+    left: 50%;
+}
+#order {
+    position: absolute;
+    width: 100%;
+    height: auto;
+    top: 5%;
+    left: 45%;
+    font-family:Calibri;
+    color:orangered;
+    font-size:100%;
+}
+/*.div-3-buttons {
+    transform: rotate(-90deg);
+    float: left;
+    font-size: 2.5vh;
+    transition: all,0.3s;
+    top: 6vh;
+    position: relative;
+}*/
+aside.left-buttons {
+    display: inline-block;
+    position: relative;
+    top: -12vh;
+}
+
+.left-3-buttons {
+    background-color: hsl( 66, 90%, 87%);
+    border-bottom-left-radius: 90px;
+    border-top-left-radius: 90px;
+    box-shadow: 0px 7px 29px 7px red;
+    width: 20vw;
+    height: 15vh;
+    margin-top: -30vh;
+    margin-bottom: -25vh;
+    right: -15vw;
+    position: relative;
+    transition: all 2s;
+    color: black;
+    font-family: Corbel;
+    background-color: white;
+}
+
+    .left-3-buttons:hover {
+        right: -4vw;
+    }
+
+
+.span-3-buttons {
+    transform: rotate(-90deg);
+    float: left;
+    font-size: 2.5vh;
+    transition: all,0.3s;
+    top: 6vh;
+    position: relative;
+}
+
+.left-3-buttons:hover span {
+    transform: rotate(0deg);
+    font-size: 6vw;
+    top: 3vh;
+}
+#option{
+    font-family:Calibri;
+    font-size:20%;
+} 

@@ -1,0 +1,214 @@
+﻿@keyframes anim1 {
+    from {
+        left: 0px;
+    }
+
+    to {
+        left: 200px;
+    }
+}
+@keyframes anim_card {
+    from {
+        left: -400px;
+    }
+
+    to {
+        left: 2200px;
+    }
+}
+@keyframes opocity_card {
+    from
+    {
+        opacity:1;
+    }
+
+    to {
+        opacity:0;
+    }
+}
+@keyframes change_c {
+    from {
+        width: 15%;
+        height: auto;
+    }
+
+    to {
+        width: 30%;
+        height: auto;
+    }
+}
+
+
+@keyframes transform {
+    from {
+        transform: rotate(0deg)
+    }
+
+    to {
+        transform: rotate(360deg)
+    }
+}
+
+#transform {
+    animation: transform 1s infinite alternate;
+    transform: rotate(0deg)
+}
+
+@keyframes transform-2 {
+    from {
+        transform: scale(1)
+    }
+
+    to {
+        transform: scale(2)
+    }
+}
+
+#transform\/2 {
+    animation: transform-2 1s infinite alternate;
+    transform: scale(1)
+}
+
+@keyframes transform-3 {
+    from {
+        transform: skewX(0deg)
+    }
+
+    to {
+        transform: skewX(180deg)
+    }
+}
+
+#transform\/3 {
+    animation: transform-3 1s infinite alternate;
+    transform: skewX(0deg)
+}
+
+@keyframes transform-4 {
+    from {
+        transform: rotate(0deg) scale(1)
+    }
+
+    to {
+        transform: rotate(360deg) scale(0)
+    }
+}
+
+#transform\/4 {
+    animation: transform-4 1s infinite alternate;
+    transform: rotate(0deg) scale(1)
+}
+
+@keyframes transform-5 {
+    from {
+        transform: perspective(400px) rotateY(0deg)
+    }
+
+    to {
+        transform: perspective(400px) rotateY(360deg)
+    }
+}
+
+#transform\/5 {
+    animation: transform-5 1s infinite alternate;
+    transform: perspective(400px) rotateY(0deg)
+}
+
+@keyframes transform-6 {
+    from {
+        transform: perspective(400px) rotateX(0deg)
+    }
+
+    to {
+        transform: perspective(400px) rotateX(360deg)
+    }
+}
+
+#transform\/6 {
+    animation: transform-6 1s infinite alternate;
+    transform: perspective(400px) rotateX(0deg)
+}
+
+@keyframes transform-7 {
+    from {
+        transform: perspective(400px) rotateY(0deg)
+    }
+
+    to {
+        transform: perspective(400px) translateZ(150px) rotateY(180deg)
+    }
+}
+
+#transform\/7 {
+    animation: transform-7 1s infinite alternate;
+    transform: perspective(400px) rotateY(0deg)
+}
+
+@keyframes transform-8 {
+    from {
+        transform: perspective(400px) translate3d(0,0,0) rotateX(0) rotateY(0) rotateZ(0)
+    }
+
+    to {
+        transform: perspective(400px) translate3d(0,0,-5000px) rotateX(720deg) rotateY(360deg) rotateZ(-360deg)
+    }
+}
+
+#transform\/8 {
+    animation: transform-8 1s infinite alternate;
+    transform: perspective(400px) translate3d(0,0,0) rotateX(0) rotateY(0) rotateZ(0)
+}
+
+@keyframes transform-9 {
+    from {
+        transform: perspective(400px) rotate3d(1,1,0,0deg)
+    }
+
+    to {
+        transform: perspective(400px) rotate3d(1,1,0,180deg)
+    }
+}
+
+#transform\/9 {
+    animation: transform-9 1s infinite alternate;
+    transform: perspective(400px) rotate3d(1,1,0,0deg)
+}
+
+@keyframes transform-10 {
+    from {
+        transform: perspective(400px) rotate3d(0,1,0,0deg)
+    }
+
+    to {
+        transform: perspective(400px) rotate3d(0,1,0,-180deg)
+    }
+}
+
+#transform\/10 {
+    animation: transform-10 1s infinite alternate;
+    transform: perspective(400px) rotate3d(0,1,0,0deg)
+}
+
+@keyframes transform-origin {
+    from {
+        transform-origin: 50% 50%
+    }
+
+    to {
+        transform-origin: 0 100%
+    }
+}
+
+#transform-origin {
+    animation: transform-origin 1s infinite alternate;
+    transform-origin: 50% 50%
+}
+@keyframes background-position-2 {
+    from {
+        background-position: 3px 0, 3px 0, 15px -150px, 15px -150px
+    }
+
+    to {
+        background-position: 3px -70px, 3px -70px, 15px -80px, 15px -80px
+    }
+}

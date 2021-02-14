@@ -1,0 +1,86 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,user-scalable=no">
+
+    <title></title>
+    <link href="../css/StyleSheet1.css" rel="stylesheet" />
+    <link href="../css/OurStyleSheet.css" rel="stylesheet" />
+    <script src="../javaScript/Our_game_code.js"></script>
+    <link href="../css/OurAnimations.css" rel="stylesheet" />
+
+
+
+    <script src="../javaScript/jquery-3.3.1.js"></script>
+    <script src="../javaScript/bootstrap.js"></script>
+    <link href="../javaScript/bootstrap.css" rel="stylesheet" />
+
+</head>
+<body onload="start_cool_game()">
+    <!--ביטלתי את הdiv החיצוני-->
+    <div id="logo" style="border: none;">
+    </div>
+    <div id="board" style="border: none;">
+        <div id="conditions" style="border: none;">
+            <div id="condition1" class="condition_back">
+                <img src="" class="condition_img" />
+            </div>
+            <div id="condition2" class="condition_back">
+                <img src="../picture/condition/fill_empty.png" class="condition_img" />
+            </div>
+        </div>
+        <div id="board_cardsA"></div>
+        <div id="board_cardsB"></div>
+        <nav id="point"> 0</nav>
+
+
+
+        <!--מנגינת רקע-->
+        <audio muted id="myautoload" autoplay="autoplay" loop="loop" src="../music/game.mp3" style="border: none; visibility: hidden "></audio>
+
+
+        <div class="sound" style="border: none; visibility: hidden ">
+            <audio autoplay="autoplay" class="audio" id="audio" src=""></audio>
+        </div>
+    </div>
+
+
+    <div id="order" style="border: none"></div>
+
+
+    <!--מועתק לסוף-->
+    <div class="container" style="border: none">
+
+        <!-- Trigger the modal with a button -->
+        <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal" style="display:none;">Open Modal</button>
+
+        <!-- Modal -->
+        <div class="modal fade  end" id="myModal" role="dialog" style="border: none">
+            <div class="modal-dialog" style="border: none">
+                <!-- Modal content-->
+                <div class="modal-content" style="border: none">
+                    <div class="modal-header" style="border: none">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h4 class="modal-title"></h4>
+                    </div>
+                    <div class="modal-body" style="border: none">
+                        <p></p>
+                    </div>
+                    <div class="modal-footer" style="border: none">
+                        <div style="border: none">you finished</div><br />
+                        <div id="numP" style="border: none"></div><br />
+                        <!--לעשות איתחול מסך-->
+                        <button type="button" class="btn btn-warning" data-dismiss="modal" onclick="new_game()" style="background-color:white ;color:orangered">שחק שוב</button>
+                        <button type="button" class="btn btn-warning" data-dismiss="modal" onclick="exit()" style="background-color:white ;color:orangered">יציאה</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+</body>
+</html>
