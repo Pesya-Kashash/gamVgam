@@ -140,7 +140,7 @@ function insert_card(c)
     card.style.animationName = "anim_card";
     card.style.animationDuration = "30s";
     card.style.left = 1400 + "px";
-    if (index_card > 30)
+    if (index_card > 30000)
         End_game();
 }
 
